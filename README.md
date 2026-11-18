@@ -44,10 +44,6 @@ python -m http.server 8000
 
 Abrir http://localhost:8000. Es necesario servir la carpeta por HTTP para cargar los JSON; abrir index.html directamente puede bloquear su lectura.
 
-## Publicación en GitHub Pages
-
-Los archivos están preparados para publicarse desde la raíz del repositorio, sin compilación. En Settings → Pages, seleccionar Deploy from a branch, la rama main y la carpeta / (root). La dirección prevista es https://famancilla.github.io/santiago-en-movimiento/ una vez habilitada la publicación.
-
 ## Autoría y componentes externos
 
 Diseño y desarrollo: Felipe Mancilla. Los datos y servicios de terceros mantienen sus respectivas condiciones de uso. Leaflet se distribuye bajo licencia BSD-2-Clause, incluida en LICENSE-Leaflet.txt. Este repositorio no concede una licencia general adicional sobre el código propio.
